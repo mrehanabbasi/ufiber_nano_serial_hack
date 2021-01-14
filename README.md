@@ -29,15 +29,20 @@ Ignoring abnormal termination with unsupported boards.
 ./ubi_serial_hack.py --insecure --serial 48:57:54:43:30:30:30:30
 ```
 
+Read only from filepath
+```sh
+./ubi_serial_hack.py -f mtdblock3.BIN
+```
+
 
 
 ## Tested
-Firmware versions: v2.1.1
+Firmware versions: v2.1.1 and v4.1.0
 
 
 
 ## Used links
-https://blog.onedefence.com/changing-the-gpon-serial-on-the-ubiquiti-ufiber-nano-g-part-two/
+https://web.archive.org/web/20190214022357/https://blog.onedefence.com/changing-the-gpon-serial-on-the-ubiquiti-ufiber-nano-g-part-two/
 
 https://github.com/palmerc/AESCrypt2
 
